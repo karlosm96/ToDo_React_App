@@ -1,0 +1,43 @@
+.form-task{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  min-width: 580px;
+}
+
+.input-task{
+  width: 25%;
+  font-size: 20px;
+  background-color: #fff;
+  padding: 8px 15px 8px 20px;
+  border-radius: 3;
+  border: 2px solid;
+  outline: none;
+  min-height: 50px;
+}
+
+.input-description{
+  width: 63.5%;
+  font-size: 20px;
+  background-color: #fff;
+  padding: 8px 15px 8px 20px;
+  border-radius: 3;
+  border: 2px solid;
+  outline: none;
+  min-height: 50px;
+}
+
+.button-add-task{
+  font-size: 20px;
+  padding: 8px 15px 8px 20px;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  background-color: blue;
+  color: #fff;
+  text-transform: capitalize;
+  min-height: 50px;
+}
